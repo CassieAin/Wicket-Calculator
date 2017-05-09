@@ -1,0 +1,77 @@
+body, p, li, a { 
+	font-family: georgia, times, serif;
+	font-size:21px;
+	
+}
+
+#formc{
+	background-color:#87cefa;
+	height:300px;
+	width:324px;
+	border-radius:10px;
+	position:relative;
+	top:0px;
+	left:42%;
+}
+
+
+#display{
+	position:relative;
+	margin-top:15px;
+	margin-left:15px;
+}
+
+
+h1, h2, h3 { 
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	text-align: center;
+}
+
+
+#input-field{
+	position:relative;
+	left:25px;
+	top:2px;
+	height:30px;
+	color:black;
+	font-size:21px;
+	text-align:right;
+	margin-top:10px;
+}
+
+#ops1 #sevend, #eightd, #nined, #divn {
+	width:40px;
+	height:30px;
+	border:none;
+	border-radius:8px;
+	margin-left:30px;
+	margin-top:15px;
+}
+
+#ops2 #fourd, #fived, #sixd, #mult {
+	width:40px;
+	height:30px;
+	border:none;
+	border-radius:8px;
+	margin-left:30px;
+	margin-top:15px;
+}
+
+#ops3 #oned, #twod, #threed, #sub{
+	width:40px;
+	height:30px;
+	border:none;
+	border-radius:8px;
+	margin-left:30px;
+	margin-top:15px;
+}
+
+#ops4 #zerod, #eq, #clear, #add{
+	width:40px;
+	height:30px;
+	border:none;
+	border-radius:8px;
+	margin-left:30px;
+	margin-top:15px;
+}
+

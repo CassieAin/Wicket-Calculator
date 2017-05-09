@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+	<meta charset="utf-8" />
+	<title>Calculator</title>
+	<wicket:link>
+		<link rel="stylesheet" href="pagestyle.css" type="text/css" media="screen" title="Stylesheet" />
+	</wicket:link>
+</head>
+<body onload="document.getElementById('input-field').select()">
+
+<h2>Calculator</h2>
+
+<form wicket:id="form" id="formc">
+		
+	<input type="hidden" wicket:id="buf" />
+	<input type="hidden" wicket:id="op" />
+	<div>
+		<span wicket:id="display" id="display"></span>&nbsp;
+	</div>
+	<div>
+	<input id="input-field" type="text" wicket:id="input" />
+	</div>	
+	<div id="ops1">
+		<input wicket:id="sevend" value="7" type="submit" id="sevend"/>	
+		<input wicket:id="eightd" value="8" type="submit" id="eightd"/>
+		<input wicket:id="nined" value="9" type="submit" id="nined"/>
+		<input wicket:id="div" value="/" type="submit" id="divn" />
+	</div>
+	<div id="ops2">
+		<input wicket:id="fourd" value="4" type="submit" id="fourd"/>
+		<input wicket:id="fived" value="5" type="submit" id="fived"/>
+		<input wicket:id="sixd" value="6" type="submit" id="sixd"/>	
+		<input wicket:id="mult" value="*" type="submit" id="mult"/>
+	</div>
+	<div id="ops3">
+		<input wicket:id="oned" value="1" type="submit" id="oned"/>
+		<input wicket:id="twod" value="2" type="submit" id="twod"/>
+		<input wicket:id="threed" value="3" type="submit" id="threed"/>	
+		<input wicket:id="sub" value="-" type="submit" id="sub"/>
+	</div>
+	<div id="ops4">
+		<input wicket:id="zerod" value="0" type="submit" id="zerod"/>
+		<input wicket:id="eq" value="=" type="submit" id="eq" />
+		<input type="submit" wicket:id="clear" value="c" id="clear"/>
+		<input wicket:id="add" value="+" type="submit" id="add"/>
+	</div>
+</form>
+</body>
+</html>
